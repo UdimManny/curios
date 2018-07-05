@@ -1,0 +1,249 @@
+/* All section */
+/* body text */
+.p-14, li {
+    font-size: 14px !important;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+/* Horizontal line */
+.hr1{
+    width: 128px;
+    height: 4px;
+     background-color: #02d664;
+     margin: 0%;
+     border-radius: 2px;
+}
+
+/* vertical line */
+.v1{
+    width: 4px;;
+    height: 62px;
+    background-color: #02d664;
+    margin: 0%;
+    border-radius: 2px;
+}
+
+/* Subtitle heading */
+.p-32{
+    font-size: 32px !important;
+    font-family: 'Poppins';
+    font-weight: 600;  
+    color: #0A0F2B;
+}
+/* End for all section */
+
+/* team section */
+#team{
+    padding: 50px 0px 50px 0px;
+}
+
+.img-in{
+     
+    position: relative;   
+}
+.image {
+display: block;
+ 
+}   
+.overlay {
+position: absolute;
+top: 0px;
+bottom: 0;
+left: 15px;
+right: 0;
+width: 230px;
+height: 230px;
+border-radius:200px;
+opacity: 0;
+transition: .5s ease;
+background-color: rgba(50, 221, 129, 0.7);
+}
+
+.img-in:hover .overlay {
+opacity: 1;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.btn-team1{
+    border-radius:80px !important;
+    background-color: #02d664 !important;
+    width: 145px;
+}
+.btn-team{
+    border-radius:80px !important;
+    width: 145px;
+    background-color: #C4C4C4;
+
+}
+.btn-team:hover{
+    background-color: #009E49;
+    color: #fff;
+    
+}
+/* End of team section */
+
+/* keep in touch section */
+#touch{
+    padding: 50px 0px 50px 0px;
+    background-color: #0A0f2b;
+    color: #FFFFFF;
+}
+.btn-touch{
+    background-color: #02d664 !important; 
+    border-radius: 0px 80px 80px 0 !important;
+    /* width: 200px; */
+}
+.input-touch{
+    border-radius: 80px 0 0 80px !important;
+    /* width: 350px; */
+}
+.input-group{
+    height: 44px;
+    width: 550px;
+}
+.info{
+    color: #02d664;
+}
+.p-24{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 24px;
+    
+}
+
+/* End of keep in touch section */
+
+
+/* FAQ section */
+#FAQ{
+    padding: 50px 0px 50px 0px;
+    background-color: #0A0f2b;
+}
+.collapsible {
+  background-color: #0A0f2b;
+  color: #02d664;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight:500px;
+  font-size: 24px;
+  font-family: 'Poppins'
+  
+}
+
+.active, .collapsible:hover {
+  background-color:#0A0f2b;
+}
+
+.collapsible:after {
+  content: '\005E';
+  color: white;
+  font-weight: 300;
+  float: right;
+  margin-left: 5px;
+
+}
+
+.active:after {
+  content: "\02228";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #0A0f2b;
+  color: fff;
+  
+}
+.p-16{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+}
+p-32{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 32px;
+    
+}
+.Fq{
+    font-size: 32px !important;
+    font-family: 'Poppins';
+    font-weight: 600;  
+    color: #fff;
+    padding-left: 18px;
+}
+
+/* End of FAQ section */
+
+/* Partners section */
+#partners{
+    padding: 50px 0px 50px 0px;
+    
+}
+/* End of partners section */
+
+/* social media section */
+.social{
+    width:86px;
+    height:86px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 150px;
+
+}
+.social-insta{
+color:transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  width:86px;
+  height:86px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 50px;
+  }
+#Social-media{
+    padding: 50px 0px 50px 0px;
+}
+/* end of social-media */
+
+/* footer section */
+.f-16{
+    font-size: 16px !important;
+    font-weight:600; 
+    font-family: 'Poppins';
+
+}
+ul{
+    list-style-type: none; 
+    padding: 0%;
+    margin: 0%;
+}
+.foot{
+    text-align: center;
+    color: white;
+}
+#footer{
+    background-color: #0A0f2b;
+    color: #FFFFFF;
+    padding: 32px 0px 34px 0px;
+}
