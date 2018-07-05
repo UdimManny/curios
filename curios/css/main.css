@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+ /* Header section */
+ 
+ .navbar {
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+  }
+ .bg-faded {
+    background-color: rgba(10, 15, 43, 0.2);
+  }
+  #hero{
+     background: url('../img/image 3.png') no-repeat;
+     background-size:cover;
+     height: 600px;
+     background-color: rgba(10, 15, 43, 0.7);
+ }
+ .hero-content{
+     padding:100px;
+ }
+ .btn-paper{
+    border-radius:80px !important;
+    background-color: #02d664 !important;
+    width: 200px;
+ }
+ .btn-plan{
+    border-radius:80px !important;
+    border:2px solid #02d664 !important;
+    width: 200px;
+ }
+ h3.hero{
+    Font-Family: Poppins;
+    font-weight: Bold;
+    Font-Size: 52px;
+    Line-Height: 60px;
+    text-align: start;
+    
+ } 
+ 
